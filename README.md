@@ -4,7 +4,7 @@ simple, real-time dashboard showing `herdr` agents
 plus+ a herdr plugin to view
 
 
-<video src="https://pub-8ba3b6abfd76456798637811981eea3f.r2.dev/2026-06-30-demo-4x.mp4" controls width="600"></video>
+![demo](https://pub-8ba3b6abfd76456798637811981eea3f.r2.dev/2026-06-30-demo-4x.gif)
 
 ## Install
 ```sh
