@@ -1,0 +1,12 @@
+id = "local.agents"
+name = "Agents Dashboard"
+version = "0.1.0"
+min_herdr_version = "0.7.0"
+description = "Launch the live agents dashboard, or jump to its tab if already running."
+platforms = ["linux", "macos"]
+
+# Toggle: focus the dashboard tab if it's running, else open it in a new tab.
+[[actions]]
+id = "toggle"
+title = "Agents dashboard (launch / jump)"
+command = ["python3", "toggle.py"]
