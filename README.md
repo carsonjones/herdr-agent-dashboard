@@ -8,9 +8,7 @@ plus+ a herdr plugin to view
 
 ## Install
 ```sh
-# clone, then:
-herdr plugin link [dir]
-herdr server reload-config
+herdr plugin install carsonjones/herdr-agents-dashboard
 ```
 
 Then bind the action in `~/.config/herdr/config.toml`:
@@ -30,7 +28,8 @@ description = "agents: launch / jump to the dashboard"
 ## Run directly
 
 ```sh
+# clone first
 bun herdr-agents.tsx [--interval 2000]   # ms between polls
-#alias agents="bun run ~/[dir]/herdr-agents.tsx
+# alias agents="bun run ~/[dir]/herdr-agents.tsx
 ```
 
