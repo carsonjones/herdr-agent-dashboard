@@ -8,7 +8,7 @@ plus+ a herdr plugin to view
 
 ## Install
 ```sh
-herdr plugin install carsonjones/herdr-agents-dashboard
+herdr plugin install carsonjones/herdr-agent-dashboard
 ```
 
 Then bind the action in `~/.config/herdr/config.toml`:
